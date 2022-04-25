@@ -42,7 +42,7 @@ O método menu() deve rodar em um loop infinito, mostrando na tela as opções p
                 (C)riar           (E)xibir             (R)emover               
                 (A)tualizar    (S)air
 
-               Pegue a primeira letra digitada pelo usuário e assuma como sendo a opção escolhida
-                    String textoMaiusculo = scan.nextLine().toUpperCase();
-                    char letra = textoMaiusculo.charAt(0);
-               Conforme a opção escolhida o método deve invocar a função correspondente criar(), exibir(), excluir(), atualizar() ou System.exit(0) para sair do sistema.
+Pegue a primeira letra digitada pelo usuário e assuma como sendo a opção escolhida
+String textoMaiusculo = scan.nextLine().toUpperCase();
+char letra = textoMaiusculo.charAt(0);
+Conforme a opção escolhida o método deve invocar a função correspondente criar(), exibir(), excluir(), atualizar() ou System.exit(0) para sair do sistema.
